@@ -6,14 +6,14 @@ const DATA={
     ["TICKETS • PARTNERSHIPS • VENDOR SPACE","#join"],
     ["BLAKMIXED ENTERTAINMENT • MEDIA • EVENTS • FASHION","#services"]
   ],
-  aboutGallery:["assets/asset-24.webp","assets/image-3.webp","assets/event-127.webp","assets/asset-26.webp","assets/asset-21.webp","assets/event-1.webp","assets/event-3.webp","assets/asset-8.webp"],
+  aboutGallery:["asset-24.webp","assets/image-3.webp","assets/event-127.webp","asset-26.webp","asset-21.webp","event-1.webp","event-3.webp","asset-8.webp"],
   pastEvents:[
-    {title:"NightLifer",category:"All Black Affair",date:"PAST EVENT",image:"assets/nightlifer.webp",desc:"A nightlife experience built around energy, style and unforgettable moments."},
-    {title:"Wave of Romance",category:"Entertainment",date:"PAST EVENT",image:"assets/wave-of-romance.webp",desc:"Music, people and atmosphere brought together under one roof."},
-    {title:"D'BOLD STEP",category:"Events & Culture",date:"PAST EVENT",image:"assets/bold-step.webp",desc:"A creative experience connecting entertainment and culture."}
+    {title:"NightLifer",category:"All Black Affair",date:"PAST EVENT",image:"nightlifer.webp",desc:"A nightlife experience built around energy, style and unforgettable moments."},
+    {title:"Wave of Romance",category:"Entertainment",date:"PAST EVENT",image:"wave-of-romance.webp",desc:"Music, people and atmosphere brought together under one roof."},
+    {title:"D'BOLD STEP",category:"Events & Culture",date:"PAST EVENT",image:"bold-step.webp",desc:"A creative experience connecting entertainment and culture."}
   ],
-  upcoming:{title:"NightLifer — All White Affair",desc:"Not Everyone Is a NightLifer. Are You? Get ready for the next chapter of the NightLifer experience.",date:"COMING SOON",location:"Port Harcourt, Nigeria",image:"assets/image-5.webp",ticketUrl:"#"},
-  gallery:["assets/asset-24.webp","assets/asset-23.webp","assets/event-127.webp","assets/asset-26.webp","assets/asset-28.webp","assets/image-2.webp","assets/event-3.webp","assets/image-4.webp","assets/event-2.webp","assets/event-57.webp","assets/event-68.webp","assets/okay.webp","assets/asset-16.webp","assets/part.webp","assets/asset-27.webp","assets/image-1.webp"]
+  upcoming:{title:"NightLifer — All White Affair",desc:"Not Everyone Is a NightLifer. Are You? Get ready for the next chapter of the NightLifer experience.",date:"COMING SOON",location:"Port Harcourt, Nigeria",image:"image-5.webp",ticketUrl:"#"},
+  gallery:["asset-24.webp","asset-23.webp","event-127.webp","asset-26.webp","asset-28.webp","image-2.webp","event-3.webp","image-4.webp","event-2.webp","event-57.webp","event-68.webp","okay.webp","asset-16.webp","part.webp","asset-27.webp","image-1.webp"]
 };
 
 function render(){
