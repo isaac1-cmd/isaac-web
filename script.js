@@ -6,7 +6,7 @@ const DATA={
     ["TICKETS • PARTNERSHIPS • VENDOR SPACE","#join"],
     ["BLAKMIXED ENTERTAINMENT • MEDIA • EVENTS • FASHION","#services"]
   ],
-  aboutGallery:["asset-24.webp","assets/image-3.webp","assets/event-127.webp","asset-26.webp","asset-21.webp","event-1.webp","event-3.webp","asset-8.webp"],
+  aboutGallery:["asset-24.webp","image-3.webp","event-127.webp","asset-26.webp","asset-21.webp","event-1.webp","event-3.webp","asset-8.webp"],
   pastEvents:[
     {title:"NightLifer",category:"All Black Affair",date:"PAST EVENT",image:"nightlifer.webp",desc:"A nightlife experience built around energy, style and unforgettable moments."},
     {title:"Wave of Romance",category:"Entertainment",date:"PAST EVENT",image:"wave-of-romance.webp",desc:"Music, people and atmosphere brought together under one roof."},
