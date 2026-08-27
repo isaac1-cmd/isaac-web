@@ -1,6 +1,6 @@
 /* EDIT YOUR WEBSITE HERE */
 const DATA={
-  contactEmail:"blakmixedentertainment.com",
+  contactEmail:"blakmixedentertainment@gmail.com",
   ads:[
     ["NEXT EVENT • NIGHTLIFER — ALL WHITE AFFAIR","#events"],
     ["TICKETS • PARTNERSHIPS • VENDOR SPACE","#join"],
