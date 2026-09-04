@@ -8,11 +8,11 @@ const DATA={
   ],
   aboutGallery:["asset-24.webp","image-3.webp","event-127.webp","asset-26.webp","asset-21.webp","event-1.webp","event-3.webp","asset-8.webp"],
   pastEvents:[
-    {title:"NightLifer",category:"All Black Affair",date:"PAST EVENT",image:"nightlifer.webp",desc:"A nightlife experience built around energy, style and unforgettable moments."},{title:"LAST CHAPTER — After exam/Sign out party",desc:"Join us as we celebrate the journey we've shared, the victories we've earned, and the future that awaits. One last gathering, one unforgettable night, and countless memories to carry into the next chapter of our lives..",date:"25TH SEPTEMBER",location:"Port Harcourt, Nigeria",image:"image-5.webp",ticketUrl:"#"},
+    {title:"NightLifer",category:"All Black Affair",date:"PAST EVENT",image:"nightlifer.webp",desc:"A nightlife experience built around energy, style and unforgettable moments."},
     {title:"Wave of Romance",category:"Entertainment",date:"PAST EVENT",image:"wave-of-romance.webp",desc:"Music, people and atmosphere brought together under one roof."},
     {title:"D'BOLD STEP",category:"Events & Culture",date:"PAST EVENT",image:"bold-step.webp",desc:"A creative experience connecting entertainment and culture."}
   ],
-  upcoming:{title:"NightLifer — All White Affair",desc:"Not Everyone Is a NightLifer. Are You? Get ready for the next chapter of the NightLifer experience.",date:"COMING SOON",location:"Port Harcourt, Nigeria",image:"image-5.webp",ticketUrl:"#"},
+  upcoming:{title:"NightLifer — All White Affair",desc:"Not Everyone Is a NightLifer. Are You? Get ready for the next chapter of the NightLifer experience.",date:"COMING SOON",location:"Port Harcourt, Nigeria",image:"image-5.webp",ticketUrl:"#"},{title:"LAST CHAPTER — After exam/Sign out party",desc:"Join us as we celebrate the journey we've shared, the victories we've earned, and the future that awaits. One last gathering, one unforgettable night, and countless memories to carry into the next chapter of our lives..",date:"25TH SEPTEMBER",location:"Port Harcourt, Nigeria",image:"image-5.webp",ticketUrl:"#"},
   gallery:["asset-24.webp","asset-23.webp","event-127.webp","asset-26.webp","asset-28.webp","image-2.webp","event-3.webp","image-4.webp","event-2.webp","event-57.webp","event-68.webp","okay.webp","asset-16.webp","part.webp","asset-27.webp","image-1.webp"]
 };
 
