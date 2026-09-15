@@ -2,7 +2,7 @@
 const DATA={
   contactEmail:"blakmixedentertainment@gmail.com",
   ads:[
-    ["NEXT EVENT • NIGHTLIFER — ALL WHITE AFFAIR","#events"],
+    ["BOOKS CLOSED — SIGN OUT PARTY","#events"],
     ["TICKETS • PARTNERSHIPS • VENDOR SPACE","#join"],
     ["BLAKMIXED ENTERTAINMENT • MEDIA • EVENTS • FASHION","#services"]
   ],
@@ -12,7 +12,7 @@ const DATA={
     {title:"Wave of Romance",category:"Entertainment",date:"PAST EVENT",image:"wave-of-romance.webp",desc:"Music, people and atmosphere brought together under one roof."},
     {title:"D'BOLD STEP",category:"Events & Culture",date:"PAST EVENT",image:"bold-step.webp",desc:"A creative experience connecting entertainment and culture."}
   ],
-  upcoming:{title:"NightLifer — All White Affair",desc:"Not Everyone Is a NightLifer. Are You? Get ready for the next chapter of the NightLifer experience.",date:"COMING SOON",location:"Port Harcourt, Nigeria",image:"image-5.webp",ticketUrl:"#"},
+  upcoming:{title:"BOOKS CLOSED — SIGN OUT PARTY",desc:"The books are officially CLOSED! 🎓🔥 Get ready for the biggest Sign Out Party of the year at Bris Ville Hotel & Resort. Bring your squad and come vibe with us as we celebrate this massive milestone with great music, cold drinks, and unmatched energy.",date:"25TH SEPT 2026",location:"DE BOOMBOX CLUB CHOBA, Port Harcourt, Nigeria",image:"books closed.jpg.jpeg",ticketUrl:"#"},
   gallery:["asset-24.webp","asset-23.webp","event-127.webp","asset-26.webp","asset-28.webp","image-2.webp","event-3.webp","image-4.webp","event-2.webp","event-57.webp","event-68.webp","okay.webp","asset-16.webp","part.webp","asset-27.webp","image-1.webp"]
 };
 
