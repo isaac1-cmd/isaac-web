@@ -2,7 +2,7 @@
 const DATA={
   contactEmail:"blakmixedentertainment@gmail.com",
   ads:[
-    ["BOOKS CLOSED — SIGN OUT PARTY","#events"],
+    ["MOMMENTS WITH HYPE MAN LEE","#events"],
     ["TICKETS • PARTNERSHIPS • VENDOR SPACE","#join"],
     ["BLAKMIXED ENTERTAINMENT • MEDIA • EVENTS • FASHION","#services"]
   ],
