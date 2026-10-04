@@ -13,7 +13,7 @@ const DATA={
     {title:"Wave of Romance",category:"Entertainment",date:"PAST EVENT",image:"wave-of-romance.webp",desc:"Music, people and atmosphere brought together under one roof."},
     {title:"D'BOLD STEP",category:"Events & Culture",date:"PAST EVENT",image:"bold-step.webp",desc:"A creative experience connecting entertainment and culture."}
   ],
-  upcoming:{title:"MOMENTS WITH HYPE MAN LEE",desc:"moment with lee sin and secrete edition, gaterying all party lovers and lovers of lee in one space.",date:"18TH OCT 2026",location:"DE VORTEX CLUB, Port Harcourt, Nigeria",image:"lee.jpeg",ticketUrl:"#"},
+  upcoming:{title:"MOMENTS WITH HYPE MAN LEE",desc:"moment with lee sin and secrete edition, gaterying all party lovers and lovers of lee in one space.",date:"18TH OCT 2026",location:"DE VORTEX CLUB, Port Harcourt, Nigeria",image:"Lee.jpeg",ticketUrl:"#"},
   gallery:["asset-24.webp","asset-23.webp","event-127.webp","asset-26.webp","asset-28.webp","image-2.webp","event-3.webp","image-4.webp","event-2.webp","event-57.webp","event-68.webp","okay.webp","asset-16.webp","part.webp","asset-27.webp","image-1.webp"]
 };
 const eventDate = new Date("October 18, 2026 00:00:00").getTime();
