@@ -14,3 +14,34 @@ img{content-visibility:auto}
 @media (prefers-reduced-motion: reduce){
   *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+.countdown-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.time-box {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 100px;
+  border: 2px solid gold;
+}
+
+.time-box span {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.time-box small {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
