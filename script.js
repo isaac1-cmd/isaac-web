@@ -8,14 +8,44 @@ const DATA={
   ],
   aboutGallery:["asset-24.webp","image-3.webp","event-127.webp","asset-26.webp","asset-21.webp","event-1.webp","event-3.webp","asset-8.webp"],
   pastEvents:[
-    {title:"NightLifer",category:"All Black Affair",date:"PAST EVENT",image:"nightlifer.webp",desc:"A nightlife experience built around energy, style and unforgettable moments."},
+    {title:""BOOKS CLOSED",category:"party as a graduate",date:"PAST EVENT",image:"nightlifer.webp",desc:"An experience built around energy, style and unforgettable moments."},
+    ,{title:"NightLifer",category:"All Black Affair",date:"PAST EVENT",image:"nightlifer.webp",desc:"A nightlife experience built around energy, style and unforgettable moments."},
     {title:"Wave of Romance",category:"Entertainment",date:"PAST EVENT",image:"wave-of-romance.webp",desc:"Music, people and atmosphere brought together under one roof."},
     {title:"D'BOLD STEP",category:"Events & Culture",date:"PAST EVENT",image:"bold-step.webp",desc:"A creative experience connecting entertainment and culture."}
   ],
-  upcoming:{title:"BOOKS CLOSED — SIGN OUT PARTY",desc:"The books are officially CLOSED! 🎓🔥 Get ready for the biggest Sign Out Party of the year at Bris Ville Hotel & Resort. Bring your squad and come vibe with us as we celebrate this massive milestone with great music, cold drinks, and unmatched energy.",date:"25TH SEPT 2026",location:"DE BOOMBOX CLUB CHOBA, Port Harcourt, Nigeria",image:"books closed.jpg.jpeg",ticketUrl:"#"},
+  upcoming:{title:"MOMENTS WITH HYPE MAN LEE",desc:"moment with lee sin and secrete edition, gaterying all party lovers and lovers of lee in one space.",date:"18TH OCT 2026",location:"DE VORTEX CLUB, Port Harcourt, Nigeria",image:"books closed.jpg.jpeg",ticketUrl:"#"},
   gallery:["asset-24.webp","asset-23.webp","event-127.webp","asset-26.webp","asset-28.webp","image-2.webp","event-3.webp","image-4.webp","event-2.webp","event-57.webp","event-68.webp","okay.webp","asset-16.webp","part.webp","asset-27.webp","image-1.webp"]
 };
+const eventDate = new Date("October 18, 2026 00:00:00").getTime();
 
+const countdown = setInterval(() => {
+  const now = new Date().getTime();
+  const distance = eventDate - now;
+
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor(
+    (distance % (1000 * 60 * 60 * 24)) /
+    (1000 * 60 * 60)
+  );
+  const minutes = Math.floor(
+    (distance % (1000 * 60 * 60)) /
+    (1000 * 60)
+  );
+  const seconds = Math.floor(
+    (distance % (1000 * 60)) / 1000
+  );
+
+  document.getElementById("days").innerHTML = days;
+  document.getElementById("hours").innerHTML = hours;
+  document.getElementById("minutes").innerHTML = minutes;
+  document.getElementById("seconds").innerHTML = seconds;
+
+  if (distance < 0) {
+    clearInterval(countdown);
+    document.getElementById("countdown").innerHTML =
+      "<h3>The Event Has Started!</h3>";
+  }
+}, 1000);
 function render(){
   const ad=document.getElementById("adTrack");
   ad.innerHTML=[...DATA.ads,...DATA.ads].map(x=>`<a href="${x[1]}">${x[0]}</a>`).join("");
