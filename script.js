@@ -8,7 +8,7 @@ const DATA={
   ],
   aboutGallery:["asset-24.webp","image-3.webp","event-127.webp","asset-26.webp","asset-21.webp","event-1.webp","event-3.webp","asset-8.webp"],
   pastEvents:[
-    {title:""BOOKS CLOSED",category:"party as a graduate",date:"PAST EVENT",image:"books closed.jpeg",desc:"An experience built around energy, style and unforgettable moments."},
+    {title:"BOOKS CLOSED",category:"party as a graduate",date:"PAST EVENT",image:"books closed.jpeg",desc:"An experience built around energy, style and unforgettable moments."},
     ,{title:"NightLifer",category:"All Black Affair",date:"PAST EVENT",image:"nightlifer.webp",desc:"A nightlife experience built around energy, style and unforgettable moments."},
     {title:"Wave of Romance",category:"Entertainment",date:"PAST EVENT",image:"wave-of-romance.webp",desc:"Music, people and atmosphere brought together under one roof."},
     {title:"D'BOLD STEP",category:"Events & Culture",date:"PAST EVENT",image:"bold-step.webp",desc:"A creative experience connecting entertainment and culture."}
